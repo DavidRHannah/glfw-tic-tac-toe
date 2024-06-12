@@ -37,7 +37,5 @@ namespace platform
 
 	bool writeEntireFile(const char *name, void *buffer, size_t size);
 	bool readEntireFile(const char *name, void *buffer, size_t size);
-
-
 };
 

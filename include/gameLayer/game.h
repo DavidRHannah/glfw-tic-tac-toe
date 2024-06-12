@@ -6,9 +6,7 @@
 class Game
 {
     private:
-        InputValidator*     mInputValidator;
-        OutputFormatter*    mOutputFormatter;
-        StateManager*        mStateManager;
+        StateManager*       mStateManager;
     public:
         Game();
         ~Game();
